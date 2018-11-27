@@ -22,7 +22,6 @@ code {
 .Website {
     display: flex;
     align-items: center;
-    background: darkkhaki;
     padding: 10px;
 }
 
@@ -31,12 +30,17 @@ code {
     height: 30px;
 }
 
+.WebBlock {
+    background: darkkhaki;
+    padding: 10px;
+}
+
 .Website a {
     width: 100px;
     margin-left: 20px;
 }
 
-.WebBlock {
+.WebList {
     display: flex;
     width: 1000px;
     flex-wrap: wrap;
