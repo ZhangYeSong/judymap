@@ -50,7 +50,7 @@ class WebBlock extends React.Component {
 class App extends React.Component {
     render() {
         return (
-            <div>
+            <div className="App">
                 <h1>Judy Map</h1>
                 <WebBlock websites={websites}/>
             </div>
