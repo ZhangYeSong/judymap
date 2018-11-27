@@ -32,7 +32,7 @@ code {
 
 .WebBlock {
     background: darkkhaki;
-    padding: 10px;
+    padding: 15px;
 }
 
 .Website a {
@@ -42,6 +42,6 @@ code {
 
 .WebList {
     display: flex;
-    width: 1000px;
+    width: 1020px;
     flex-wrap: wrap;
 }
