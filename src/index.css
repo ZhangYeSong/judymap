@@ -1,11 +1,21 @@
+.dark-primary-color    { background: #455A64; }
+.default-primary-color { background: #607D8B; }
+.light-primary-color   { background: #CFD8DC; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #FF5252; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #607D8B;
 }
 
 code {
@@ -17,6 +27,13 @@ code {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.App h1 {
+    color: #FFFFFF;
+}
+
+.WebBlocks {
 }
 
 .Website {
@@ -31,17 +48,24 @@ code {
 }
 
 .WebBlock {
-    background: darkkhaki;
+}
+
+.BlockTitle {
     padding: 15px;
+    background: #455A64;
+    color: #FFFFFF;
 }
 
 .Website a {
+    color: black;
     width: 100px;
     margin-left: 20px;
+    text-decoration: none;
 }
 
 .WebList {
     display: flex;
-    width: 1020px;
+    width: 1050px;
     flex-wrap: wrap;
+    background: #FFFFFF;
 }
