@@ -16,6 +16,7 @@ class WebSiteEntity {
 }
 
 let blockTypesData = [
+    {id: 'usual', name: '常用网站'},
     {id: 'lan', name: '编程语言'},
     {id: 'back', name: '后台开发'},
     {id: 'front', name: '前端开发'},
@@ -25,6 +26,14 @@ let blockTypesData = [
 ];
 
 let websitesData = [
+    //常用网站
+    new WebSiteEntity('https://www.google.com/', 'Google', 'usual', '/img/google.png'),
+    new WebSiteEntity('https://www.baidu.com/', '百度', 'usual', '/img/baidu.png'),
+    new WebSiteEntity('https://stackoverflow.com/', 'StackOverflow', 'usual', '/img/stackoverflow.png'),
+    new WebSiteEntity('https://github.com/', 'Github', 'usual', '/img/github.jpeg'),
+    new WebSiteEntity('http://www.w3school.com.cn/', 'W3CSchool', 'usual', '/img/w3c.png'),
+    new WebSiteEntity('https://leetcode-cn.com/', 'LeetCode', 'usual', '/img/leetcode.png'),
+
     //编程语言
     new WebSiteEntity('http://www.cplusplus.com/', 'C++', 'lan', '/img/c++.jpeg'),
     new WebSiteEntity('https://www.java.com/', 'Java', 'lan', '/img/java.png'),
@@ -59,6 +68,7 @@ let websitesData = [
     new WebSiteEntity('https://hadoop.apache.org/', 'Hadoop', 'back', '/img/hadoop.png'),
     new WebSiteEntity('https://spark.apache.org/', 'Spark', 'back', '/img/spark.png'),
     new WebSiteEntity('https://akka.io/', 'Akka', 'back', '/img/akka.png'),
+    new WebSiteEntity('https://jwt.io/', 'Json Web Token', 'back', '/img/jwt.png'),
 
     //前端开发
     new WebSiteEntity('https://reactjs.org/', 'React', 'front', '/img/react.png'),
@@ -85,6 +95,7 @@ let websitesData = [
     new WebSiteEntity('https://www.oracle.com/database/', 'Oracle', 'database', '/img/oracle.jpeg'),
     new WebSiteEntity('https://www.mongodb.com/cn', 'MongoDB', 'database', '/img/mongodb.png'),
     new WebSiteEntity('http://slick.lightbend.com/', 'Slick', 'database', '/img/slick.jpg'),
+    new WebSiteEntity('https://www.sqlite.org/', 'SQLite', 'database', '/img/sqlite.png'),
 
     //设计&&UI组件库
     new WebSiteEntity('https://ant.design/', 'Ant-Design', 'design', '/img/antdesign.jpeg'),
