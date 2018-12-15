@@ -112,7 +112,7 @@ class Website extends React.Component {
         return (
             <div className={'Website'}>
                 <img src={this.props.website.icon} alt={''}/>
-                <a href={this.props.website.url}>{this.props.website.name}</a>
+                <a href={this.props.website.url} target={'_blank'}>{this.props.website.name}</a>
             </div>
         );
     }
@@ -127,7 +127,7 @@ class WebBlock extends React.Component {
         let webList = this.renderWebList();
         return (
             <div className="WebBlock">
-                <div className="BlockTitle">{this.props.type.name}</div>
+                <div className="BlockTitle"><strong>{this.props.type.name}</strong></div>
                 <div className="WebList">{webList}</div>
             </div>
 
