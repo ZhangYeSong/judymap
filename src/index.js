@@ -89,6 +89,7 @@ let websitesData = [
     new WebSiteEntity('https://facebook.github.io/react-native/', 'React Native', 'mobile', '/img/reactnative.png'),
     new WebSiteEntity('https://ionicframework.com/', 'ionic', 'mobile', '/img/ionic.png'),
     new WebSiteEntity('https://flutter.io/', 'Flutter', 'mobile', '/img/flutter.png'),
+    new WebSiteEntity('https://mp.weixin.qq.com/cgi-bin/wx', '微信小程序', 'mobile', '/img/weixin.jpeg'),
 
     //数据库
     new WebSiteEntity('https://www.mysql.com/cn/', 'MySQL', 'database', '/img/mysql.png'),
@@ -96,6 +97,7 @@ let websitesData = [
     new WebSiteEntity('https://www.mongodb.com/cn', 'MongoDB', 'database', '/img/mongodb.png'),
     new WebSiteEntity('http://slick.lightbend.com/', 'Slick', 'database', '/img/slick.jpg'),
     new WebSiteEntity('https://www.sqlite.org/', 'SQLite', 'database', '/img/sqlite.png'),
+    new WebSiteEntity('https://redis.io/', 'Redis', 'database', '/img/redis.png'),
 
     //设计&&UI组件库
     new WebSiteEntity('https://ant.design/', 'Ant-Design', 'design', '/img/antdesign.jpeg'),
